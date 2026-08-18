@@ -161,7 +161,7 @@ nav,
 }
 
 .dark-theme #personal-logo {
-  filter: none;
+  filter: invert(1);
 }
 
 .dark-theme .scroll__icon {
@@ -285,9 +285,9 @@ nav {
 }
 
 #personal-logo {
-  height: 50px;
-  width: 50px;
-  filter: invert(1);
+  height: 70px;
+  width: 70px;
+  filter: none;
 }
 
 .nav__link--list {
@@ -587,6 +587,7 @@ footer {
 
 .footer__logo--img {
   width: 70px;
+  filter: invert(1);
 }
 
 .footer__social--list {
